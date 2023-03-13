@@ -7,10 +7,10 @@ const Single = () => {
   return (
     <div className='single'>
       <div className='single-content'>
-        <img src='http://placekitten.com/200/300' />
+        <img alt='' src='http://placekitten.com/200/300' />
 
         <div className='user'>
-          <img src='http://placekitten.com/200/300' />
+          <img alt='' src='http://placekitten.com/200/300' />
 
           <div className='info'>
             <span className='span-single'>Hieu</span>
@@ -18,10 +18,10 @@ const Single = () => {
           </div>
           <div className='edit'>
             <Link to={`/upload?edit=2`}>
-              <img src={require('../../Picture/edit.png')} />
+              <img alt='' src={require('../../Picture/edit.png')} />
             </Link>
             <Link>
-              <img src={require('../../Picture/delete.png')} />
+              <img alt='' src={require('../../Picture/delete.png')} />
             </Link>
           </div>
         </div>

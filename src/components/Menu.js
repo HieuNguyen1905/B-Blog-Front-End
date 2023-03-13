@@ -1,6 +1,6 @@
 import './Menu.css'
 import React from 'react'
-import {Link} from 'react-router-dom'
+// import {Link} from 'react-router-dom'
 
 function Menu() {
     const posts = [
@@ -41,7 +41,7 @@ function Menu() {
         <h1>Other posts that you may like</h1>
         {posts.map(post=>(
           <div className='menu-tab-post' key={post.id}>
-              <img src={post.img} />
+              <img alt='' src={post.img} />
               <h2>{post.title}</h2>
               <button className='menu-btn'>Read More</button>
           </div>
